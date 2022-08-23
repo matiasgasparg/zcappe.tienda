@@ -11,8 +11,8 @@ import { NgbCarouselConfig } from '@ng-bootstrap/ng-bootstrap';
 
 })
 export class CarouselComponent {
-  images = ["qF1x8nc", "p12y9YS", "p12y9YS"].map((n) => `https://i.ibb.co/${n}/zcappeimagencarousel.jpg`);
-
+  images = ["qF1x8nc", "p12y9YS", "p12y9YS",].map((n) => `https://i.ibb.co/${n}/zcappeimagencarousel.jpg`);
+  
 
   constructor(config: NgbCarouselConfig) {
     // customize default values of carousels used by this component tree

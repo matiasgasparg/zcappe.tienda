@@ -7,12 +7,14 @@ import { NavBarComponent } from './components/nav-bar/nav-bar.component';
 import { CarouselComponent } from './components/carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatIconModule } from '@angular/material/icon';
+import { CardsImgComponent } from './components/cards-img/cards-img.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    CarouselComponent
+    CarouselComponent,
+    CardsImgComponent
   ],
   imports: [
     BrowserModule,
