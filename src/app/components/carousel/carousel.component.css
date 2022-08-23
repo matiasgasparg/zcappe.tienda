@@ -1,0 +1,14 @@
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+  }
+  
+  .carousel-caption{
+    color:black;
+
+  }
+  ngb-carousel{
+    background:  #edece1
+  }
