@@ -1,0 +1,53 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+.cont{
+    height:100vh;
+
+    position: relative;
+background-color: #9a1323;
+min-height: 100vh;
+background-image: url(fondo.png);
+background-attachment: fixed;
+background-size: cover;
+background-position: center;
+height: 100%;
+width: 100%;
+z-index: -1;
+}
+
+
+.cont1{
+    position: absolute;
+    margin-top: 150px;
+    margin-left:200px;
+    
+
+    
+}
+
+
+.img1{ 
+    
+
+    width: 300px;
+    height: 300px;
+    border: 1px solid ;
+  }
+  .img2{ 
+    
+
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+
+  }
+  .img3{ 
+    
+
+    width: 300px;
+    height: 300px;
+    border: 1px solid;
+
+  }

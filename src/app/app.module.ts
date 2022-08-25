@@ -8,13 +8,15 @@ import { CarouselComponent } from './components/carousel/carousel.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { MatIconModule } from '@angular/material/icon';
 import { CardsImgComponent } from './components/cards-img/cards-img.component';
+import { ProductosShirtComponent } from './components/productos-shirt/productos-shirt.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
     CarouselComponent,
-    CardsImgComponent
+    CardsImgComponent,
+    ProductosShirtComponent
   ],
   imports: [
     BrowserModule,
